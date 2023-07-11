@@ -1,0 +1,9 @@
+from typing import Union
+
+SomeAlias = Union[str, int]
+
+def what(huh: object) -> None:
+    ...
+
+def func() -> None:
+    what(SomeAlias)
